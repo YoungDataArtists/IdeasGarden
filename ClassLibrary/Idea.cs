@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace ClassLibrary
 {
     abstract class Idea
-
-
     {
         [BsonRepresentation(BsonType.ObjectId)]
         public Guid Id { get; set; }
@@ -20,14 +20,10 @@ namespace ClassLibrary
 
     }
 
-
-
-
     class DraftIdea : Idea
     {
         //public DraftIdea(): base: Status = 1 ;
     }
-
 
     class PostedIdea : Idea
     {
@@ -46,18 +42,12 @@ namespace ClassLibrary
 
         }
 
-
     }
-
-
 
     class IdeaDecrator : Idea
 
     {
         Idea Idea;
-
-
-
 
     }
 
