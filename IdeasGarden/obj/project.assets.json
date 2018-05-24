@@ -13776,27 +13776,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Natalie\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\DoktorMC\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\IdeasGarden\\IdeasGarden\\IdeasGarden.csproj",
+      "projectUniqueName": "C:\\Users\\DoktorMC\\Documents\\IdeasGarden\\IdeasGarden\\IdeasGarden.csproj",
       "projectName": "IdeasGarden",
-      "projectPath": "D:\\GitHub\\IdeasGarden\\IdeasGarden\\IdeasGarden.csproj",
-      "packagesPath": "C:\\Users\\Natalie\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\IdeasGarden\\IdeasGarden\\obj\\",
+      "projectPath": "C:\\Users\\DoktorMC\\Documents\\IdeasGarden\\IdeasGarden\\IdeasGarden.csproj",
+      "packagesPath": "C:\\Users\\DoktorMC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DoktorMC\\Documents\\IdeasGarden\\IdeasGarden\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Natalie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\DoktorMC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -13808,8 +13805,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\GitHub\\IdeasGarden\\ClassLibrary\\ClassLibrary.csproj": {
-              "projectPath": "D:\\GitHub\\IdeasGarden\\ClassLibrary\\ClassLibrary.csproj"
+            "C:\\Users\\DoktorMC\\Documents\\IdeasGarden\\ClassLibrary\\ClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\DoktorMC\\Documents\\IdeasGarden\\ClassLibrary\\ClassLibrary.csproj"
             }
           }
         }
