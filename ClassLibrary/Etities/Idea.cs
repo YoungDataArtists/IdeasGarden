@@ -3,15 +3,13 @@ using MongoDB.Bson.Serialization.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using MongoDB.Bson;
-using MongoDB.Bson.Serialization.Attributes;
 
 namespace ClassLibrary
 {
     abstract class Idea
     {
         [BsonRepresentation(BsonType.ObjectId)]
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         public string Title { get; set; }
         public string Category { get; set; }
@@ -29,7 +27,6 @@ namespace ClassLibrary
 
     class PostedIdea : Idea
     {
-
         public DateTime Start_date { get; set; }
         public DateTime Deadline { get; set; }
         // public Rating Rating { get; set; }
@@ -37,20 +34,6 @@ namespace ClassLibrary
         public User[] Followers { get; set; }
         public string[] Images { get; set; }
         public decimal Funds { get; set; }
-
-        public PostedIdea()
-        {
-
-
-        }
-
-    }
-
-    class IdeaDecrator : Idea
-
-    {
-        Idea Idea;
-
     }
 
 }
